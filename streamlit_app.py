@@ -56,7 +56,7 @@ full_chain = SequentialChain(
 )
 
 
-domain_input = st.text_input("Enter a startup domain (e.g. finance, edtech, health, defence)")
+domain_input = st.text_input("Enter a startup domain (e.g. finance, edtech, health, defence,food)")
 
 if st.button("Generate Startup Plan"):
     if not domain_input.strip():
